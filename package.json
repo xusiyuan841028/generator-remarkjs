@@ -1,0 +1,30 @@
+{
+  "name": "generator-remarkjs",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "xusiyuan841028/generator-remarkjs",
+  "author": {
+    "name": "Phoenix Xu",
+    "email": "xusiyuan841028@gmail.com",
+    "url": "https://github.com/xusiyuan841028"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
